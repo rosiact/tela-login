@@ -1,0 +1,93 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, #e0ad6a, #000 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.principal {
+    background-color:hsl(31, 65%, 46%); 
+    width: 80%;
+    height: 80%; 
+    display: flex;
+}
+.esquerda {
+  
+    background-image: url(al.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+
+}
+.esquerda img {
+    width: 80%;
+}
+.direita {
+    background-image: url(mapa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+}
+form {
+    background-color:#9c792d46;
+    width: 55%;
+    height: 55%;
+    padding: 4% 5%;
+    display: flex;
+    flex-direction:column;
+    border-radius: 8px;
+    gap: 10px;
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+}
+.linha {
+    background-color: black;
+    height: 5px;
+    width: 210px;
+}
+.form.group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form.group input {
+    padding: 8px;
+    border: 0;
+    border-radius: 4px;
+}
+.lembrar {
+    display: flex;
+    gap: 5px;
+}
+
+.button: {
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+button:hover {
+    background-color: chocolate;
+}
+p {
+    margin-top: 10px;
+}
